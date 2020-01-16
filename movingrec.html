@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+width:100px;
+height:100px;
+background:red;
+position:relative;
+-webkit-animation:myfirst 5s;
+animation:myfirst 5s;
+}
+@-webkit-keyframes myfirst{
+0% {background:red;left:0px;top:0px;}
+20% {background:yellow;left:300px;top:0px;}
+50% {background:blue;left:200px;top:300px;}
+75% {background:green;left:0px;top:200px;}
+100% {background:red;left:0px;top:0px;}
+
+}
+@keyframes myfirst{
+0% {background:red;left:0px;top:0px;}
+20% {background:yellow;left:300px;top:0px;}
+50% {background:blue;left:300px;top200px;}
+75% {background:green;left:0px;top:200px;}
+100% {background:red;left:0px;top:0px;}
+}
+</style>
+</head>
+<body>
+<p><b>Note:</b>The IE 9 and earlier versions dont support css3 animation property.</p>
+<div></div>
+</body>
+</html>
